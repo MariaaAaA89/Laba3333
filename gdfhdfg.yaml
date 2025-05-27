@@ -1,0 +1,206 @@
+---
+- name: "Леший"
+  description: "Гибрид человека и духа леса, страж Брокилона."
+  habitat:
+  - "чащобы Эдингеля"
+  - "рощи без солнца"
+  firstMentioned: 1234
+  immuneTo:
+  - "магия"
+  - "яд"
+  - "гром меди"
+  height: "три сажени"
+  weight: "три центнера"
+  activeAt: "ночь"
+  potion:
+    ingredients:
+    - name: "корень мандрагоры"
+      amount: "3 доли"
+    - name: "пепел драконида"
+      amount: "1 щепоть"
+    - name: "эссенция полыни горькой"
+      amount: "по вкусу"
+    brewTimeMinutes: 60
+  strength: "умеренна"
+  source: "XML: bestiarum.xml"
+- name: "Полуденница"
+  description: "Призрак жнив, являющийся в час солнечного зенита."
+  habitat:
+  - "нивы Редании"
+  - "амбары Туссента"
+  firstMentioned: 1198
+  immuneTo:
+  - "клинки"
+  - "черная кровь"
+  height: "без веса"
+  weight: "туман и ветер"
+  activeAt: "полдень"
+  potion:
+    ingredients:
+    - name: "лепестки лунного цветка"
+      amount: "2"
+    - name: "нить серебра плакучего"
+      amount: "1"
+    - name: "сок чеснока дольчатого"
+      amount: "по вкусу"
+    brewTimeMinutes: 30
+  strength: "невидимая"
+  source: "XML: bestiarum.xml"
+- name: "Катакан"
+  description: "Крылатое чудовище из преисподней."
+  habitat:
+  - "ущелья Туссента"
+  - "пещеры"
+  firstMentioned: 1150
+  immuneTo:
+  - "стрелы"
+  - "простые яды"
+  - "огонь"
+  - "отрава"
+  height: "как боевой конь"
+  weight: "200 пудов"
+  activeAt: "закат"
+  potion:
+    ingredients:
+    - name: "жало мантикоры"
+      amount: "4"
+    - name: "нефритовая пыль"
+      amount: "2 горсти"
+    - name: "спирт Альберихта"
+      amount: "полная луна"
+    brewTimeMinutes: 90
+  strength: "летучая ярость"
+  source: "XML: bestiarum.xml"
+- name: "Кикимора"
+  description: "Болотное чудовище из тины и костей утопленников."
+  habitat:
+  - "топи Вендена"
+  - "трясины Велгельда"
+  firstMentioned: 1221
+  immuneTo:
+  - "удавки"
+  height: "с отрока"
+  weight: "15 фунтов"
+  activeAt: "полнолуние за тучами"
+  potion:
+    ingredients:
+    - name: "грибы-поганки"
+      amount: "5"
+    - name: "глаз василиска"
+      amount: "1"
+    - name: "роса папоротника"
+      amount: "3 капли"
+    brewTimeMinutes: 45
+  strength: "небольшая"
+  source: "XML: bestiarum.xml"
+- name: "Элементаль льда"
+  description: "Дух вечной зимы в хрустальном теле."
+  habitat:
+  - "ледники Ковира"
+  firstMentioned: 1105
+  immuneTo:
+  - "меч"
+  - "секира"
+  - "мороз"
+  - "дробящий удар"
+  height: "5 саженей"
+  weight: "нематериальный холод"
+  activeAt: "всегда"
+  potion:
+    ingredients:
+    - name: "сердце огненного элементаля"
+      amount: "1"
+    - name: "сера горючая"
+      amount: "3 меры"
+    - name: "расплавленное железо"
+      amount: "по вкусу"
+    brewTimeMinutes: 120
+  strength: "переменная"
+  source: "XML: bestiarum.xml"
+- name: "Гарпия Штормов"
+  description: "Крылатая ведьма, питающаяся молниями."
+  habitat:
+  - "скалы Скеллиге"
+  firstMentioned: 1240
+  immuneTo:
+  - "шторм"
+  - "молнии"
+  height: "два с половиной метра"
+  weight: "80 кг"
+  activeAt: "буря"
+  potion:
+    ingredients:
+    - name: "перо гарпии"
+      amount: "3"
+    - name: "пыль громовника"
+      amount: "1 горсть"
+    - name: "вода из шторма"
+      amount: "5 капель"
+    brewTimeMinutes: 50
+  strength: "высокая"
+  source: "XML: bestiarum.xml"
+- name: "Каменный Пастырь"
+  description: "Страж древнего храма, оживший из статуи."
+  habitat:
+  - "руины Темерии"
+  firstMentioned: 1185
+  immuneTo:
+  - "физические атаки"
+  height: "4 метра"
+  weight: "тонна"
+  activeAt: "при вторжении"
+  potion:
+    ingredients:
+    - name: "песок времени"
+      amount: "7 крупиц"
+    - name: "масло долины"
+      amount: "2 флакона"
+    - name: "осколок зеркала"
+      amount: "1"
+    brewTimeMinutes: 70
+  strength: "монументальная"
+  source: "XML: bestiarum.xml"
+- name: "Песочный Змей"
+  description: "Огромный червь, живущий под песками."
+  habitat:
+  - "пустыня Зерикания"
+  firstMentioned: 1210
+  immuneTo:
+  - "огонь"
+  - "яд"
+  height: "длина 10 метров"
+  weight: "неизвестно"
+  activeAt: "день"
+  potion:
+    ingredients:
+    - name: "песок из его логова"
+      amount: "1 мешок"
+    - name: "чешуя змеи"
+      amount: "3"
+    - name: "соль пустыни"
+      amount: "по вкусу"
+    brewTimeMinutes: 80
+  strength: "опустошающая"
+  source: "XML: bestiarum.xml"
+- name: "Бескостный"
+  description: "Мутант без костей, двигающийся как жидкость."
+  habitat:
+  - "каналы Новиграда"
+  firstMentioned: 1255
+  immuneTo:
+  - "удары"
+  - "острые предметы"
+  height: "пластичен"
+  weight: "постоянно меняется"
+  activeAt: "сумерки"
+  potion:
+    ingredients:
+    - name: "жир бескостного"
+      amount: "2 унции"
+    - name: "настойка вязкости"
+      amount: "1"
+    - name: "ткань реликта"
+      amount: "0.5 метра"
+    brewTimeMinutes: 100
+  strength: "мутирующая"
+  source: "XML: bestiarum.xml"

@@ -1,0 +1,314 @@
+<monsters>
+  <monster>
+    <name>Леший</name>
+    <description>Гибрид человека и духа леса, страж Брокилона.</description>
+    <habitat>
+      <item>чащобы Эдингеля</item>
+      <item>рощи без солнца</item>
+    </habitat>
+    <firstMentioned>1234</firstMentioned>
+    <immuneTo>
+      <item>магия</item>
+      <item>яд</item>
+      <item>гром меди</item>
+    </immuneTo>
+    <height>три сажени</height>
+    <weight>три центнера</weight>
+    <activeAt>ночь</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>корень мандрагоры</name>
+          <amount>3 доли</amount>
+        </ingredient>
+        <ingredient>
+          <name>пепел драконида</name>
+          <amount>1 щепоть</amount>
+        </ingredient>
+        <ingredient>
+          <name>эссенция полыни горькой</name>
+          <amount>по вкусу</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>60</brewTimeMinutes>
+    </potion>
+    <strength>умеренная</strength>
+  </monster>
+
+  <monster>
+    <name>Полуденница</name>
+    <description>Призрак жнив, являющийся в час солнечного зенита.</description>
+    <habitat>
+      <item>нивы Редании</item>
+      <item>амбары Туссента</item>
+    </habitat>
+    <firstMentioned>1198</firstMentioned>
+    <immuneTo>
+      <item>клинки</item>
+      <item>черная кровь</item>
+    </immuneTo>
+    <height>без веса</height>
+    <weight>туман и ветер</weight>
+    <activeAt>полдень</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>лепестки лунного цветка</name>
+          <amount>2</amount>
+        </ingredient>
+        <ingredient>
+          <name>нить серебра плакучего</name>
+          <amount>1</amount>
+        </ingredient>
+        <ingredient>
+          <name>сок чеснока дольчатого</name>
+          <amount>по вкусу</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>30</brewTimeMinutes>
+    </potion>
+    <strength>невидимая</strength>
+  </monster>
+
+  <monster>
+    <name>Катакан</name>
+    <description>Крылатое чудовище из преисподней.</description>
+    <habitat>
+      <item>ущелья Туссента</item>
+      <item>пещеры</item>
+    </habitat>
+    <firstMentioned>1150</firstMentioned>
+    <immuneTo>
+      <item>стрелы</item>
+      <item>простые яды</item>
+      <item>огонь</item>
+      <item>отрава</item>
+    </immuneTo>
+    <height>как боевой конь</height>
+    <weight>200 пудов</weight>
+    <activeAt>закат</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>жало мантикоры</name>
+          <amount>4</amount>
+        </ingredient>
+        <ingredient>
+          <name>нефритовая пыль</name>
+          <amount>2 горсти</amount>
+        </ingredient>
+        <ingredient>
+          <name>спирт Альберихта</name>
+          <amount>полная луна</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>90</brewTimeMinutes>
+    </potion>
+    <strength>летучая ярость</strength>
+  </monster>
+
+  <monster>
+    <name>Кикимора</name>
+    <description>Болотное чудовище из тины и костей утопленников.</description>
+    <habitat>
+      <item>топи Вендена</item>
+      <item>трясины Велгельда</item>
+    </habitat>
+    <firstMentioned>1221</firstMentioned>
+    <immuneTo>
+      <item>удавки</item>
+    </immuneTo>
+    <height>с отрока</height>
+    <weight>15 фунтов</weight>
+    <activeAt>полнолуние за тучами</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>грибы-поганки</name>
+          <amount>5</amount>
+        </ingredient>
+        <ingredient>
+          <name>глаз василиска</name>
+          <amount>1</amount>
+        </ingredient>
+        <ingredient>
+          <name>роса папоротника</name>
+          <amount>3 капли</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>45</brewTimeMinutes>
+    </potion>
+    <strength>небольшая</strength>
+  </monster>
+
+  <monster>
+    <name>Элементаль льда</name>
+    <description>Дух вечной зимы в хрустальном теле.</description>
+    <habitat>
+      <item>ледники Ковира</item>
+    </habitat>
+    <firstMentioned>1105</firstMentioned>
+    <immuneTo>
+      <item>меч</item>
+      <item>секира</item>
+      <item>мороз</item>
+      <item>дробящий удар</item>
+    </immuneTo>
+    <height>5 саженей</height>
+    <weight>нематериальный холод</weight>
+    <activeAt>всегда</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>сердце огненного элементаля</name>
+          <amount>1</amount>
+        </ingredient>
+        <ingredient>
+          <name>сера горючая</name>
+          <amount>3 меры</amount>
+        </ingredient>
+        <ingredient>
+          <name>расплавленное железо</name>
+          <amount>по вкусу</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>120</brewTimeMinutes>
+    </potion>
+    <strength>переменная</strength>
+  </monster>
+
+  <monster>
+    <name>Гарпия Штормов</name>
+    <description>Крылатая ведьма, питающаяся молниями.</description>
+    <habitat>
+      <item>скалы Скеллиге</item>
+    </habitat>
+    <firstMentioned>1240</firstMentioned>
+    <immuneTo>
+      <item>шторм</item>
+      <item>молнии</item>
+    </immuneTo>
+    <height>два с половиной метра</height>
+    <weight>80 кг</weight>
+    <activeAt>буря</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>перо гарпии</name>
+          <amount>3</amount>
+        </ingredient>
+        <ingredient>
+          <name>пыль громовника</name>
+          <amount>1 горсть</amount>
+        </ingredient>
+        <ingredient>
+          <name>вода из шторма</name>
+          <amount>5 капель</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>50</brewTimeMinutes>
+    </potion>
+    <strength>высокая</strength>
+  </monster>
+
+  <monster>
+    <name>Каменный Пастырь</name>
+    <description>Страж древнего храма, оживший из статуи.</description>
+    <habitat>
+      <item>руины Темерии</item>
+    </habitat>
+    <firstMentioned>1185</firstMentioned>
+    <immuneTo>
+      <item>физические атаки</item>
+    </immuneTo>
+    <height>4 метра</height>
+    <weight>тонна</weight>
+    <activeAt>при вторжении</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>песок времени</name>
+          <amount>7 крупиц</amount>
+        </ingredient>
+        <ingredient>
+          <name>масло долины</name>
+          <amount>2 флакона</amount>
+        </ingredient>
+        <ingredient>
+          <name>осколок зеркала</name>
+          <amount>1</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>70</brewTimeMinutes>
+    </potion>
+    <strength>монументальная</strength>
+  </monster>
+
+  <monster>
+    <name>Песочный Змей</name>
+    <description>Огромный червь, живущий под песками.</description>
+    <habitat>
+      <item>пустыня Зерикания</item>
+    </habitat>
+    <firstMentioned>1210</firstMentioned>
+    <immuneTo>
+      <item>огонь</item>
+      <item>яд</item>
+    </immuneTo>
+    <height>длина 10 метров</height>
+    <weight>неизвестно</weight>
+    <activeAt>день</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>песок из его логова</name>
+          <amount>1 мешок</amount>
+        </ingredient>
+        <ingredient>
+          <name>чешуя змеи</name>
+          <amount>3</amount>
+        </ingredient>
+        <ingredient>
+          <name>соль пустыни</name>
+          <amount>по вкусу</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>80</brewTimeMinutes>
+    </potion>
+    <strength>опустошающая</strength>
+  </monster>
+
+  <monster>
+    <name>Бескостный</name>
+    <description>Мутант без костей, двигающийся как жидкость.</description>
+    <habitat>
+      <item>каналы Новиграда</item>
+    </habitat>
+    <firstMentioned>1255</firstMentioned>
+    <immuneTo>
+      <item>удары</item>
+      <item>острые предметы</item>
+    </immuneTo>
+    <height>пластичен</height>
+    <weight>постоянно меняется</weight>
+    <activeAt>сумерки</activeAt>
+    <potion>
+      <ingredients>
+        <ingredient>
+          <name>жир бескостного</name>
+          <amount>2 унции</amount>
+        </ingredient>
+        <ingredient>
+          <name>настойка вязкости</name>
+          <amount>1</amount>
+        </ingredient>
+        <ingredient>
+          <name>ткань реликта</name>
+          <amount>0.5 метра</amount>
+        </ingredient>
+      </ingredients>
+      <brewTimeMinutes>100</brewTimeMinutes>
+    </potion>
+    <strength>мутирующая</strength>
+  </monster>
+</monsters>
