@@ -43,22 +43,5 @@ public class Monster {
         return name;
     }
 
-//    public static class Potion {
-//        private List<Ingredient> ingredients;
-//        private int brewTimeMinutes;
-//
-//        public List<Ingredient> getIngredients() { return ingredients; }
-//        public void setIngredients(List<Ingredient> ingredients) { this.ingredients = ingredients; }
-//        public int getBrewTimeMinutes() { return brewTimeMinutes; }
-//        public void setBrewTimeMinutes(int brewTimeMinutes) { this.brewTimeMinutes = brewTimeMinutes; }
-
-//        public static class Ingredient {
-//            private String name;
-//            private String amount;
-//
-//            public String getName() { return name; }
-//            public void setName(String name) { this.name = name; }
-//            public String getAmount() { return amount; }
-//            public void setAmount(String amount) { this.amount = amount; }
-        }
+}
     
